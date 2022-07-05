@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat:wght@100&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: bisque;
+  font-family: 'Montserrat', sans-serif;
+}
+.begin{
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+.sub{
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 81vh;
+  padding-top: 30px;
+  padding-right: 35px;
+  padding-left: 30px;
+  background-color: #fff;
+}
+.one{
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  font-family: 'Fraunces', serif;
+  height: 81vh;
+}
+.two{
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.three{
+  font-family: 'Fraunces', serif;
+  font-size: 39px;
+  padding-bottom: 20px;
+}
+.four{
+  letter-spacing: 2px;
+  font-size: 17px;
+  line-height: 20px;
+  padding-bottom: 35px;
+}
+.number{
+  display: flex;
+  padding-bottom: 25px;
+}
+.five{
+  font-family: 'Fraunces', serif;
+  font-weight: bolder;
+  font-size: 35px;
+  color: rgb(67, 148, 121);
+}
+.six{
+  text-decoration: line-through;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+.seven{
+  padding-right: 15px;
+}
+button{
+  color: #fff;
+  font-weight: bold;
+  padding-left: 92px;
+  padding-right: 92px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 10px;
+  border: rgb(67, 148, 121);;
+  background-color: rgb(67, 148, 121);
+}
+@media screen and (max-width:600px){
+  .begin{
+    margin: 0;
+    flex-direction: column;
+  }
+  .sub{
+    height: 100%;
+    width: 100%;
+    margin-top: -30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 35px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .one{
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  }
+  button{
+    /* height: 50px; */
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width:1368px){
+}
+
